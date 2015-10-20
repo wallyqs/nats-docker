@@ -1,4 +1,4 @@
-FROM scratch
+FROM rhel
 
 COPY gnatsd /gnatsd
 COPY gnatsd.conf /gnatsd.conf
